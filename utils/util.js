@@ -55,6 +55,10 @@ function http (url, params, type, success, error, needLoading, headers) {
       } else {
         console.log(data.message)
         typeof error == 'function' && error(data.message)
+        wx.showToast({
+          title: data.message,
+          icon: 'error'
+        })
         unloading()
       }
     },

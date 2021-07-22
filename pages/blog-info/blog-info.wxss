@@ -15,6 +15,10 @@
   padding-bottom: 46px;
   padding-top: 10rpx;
 }
+.article-info .desc {
+  font-size: 30rpx;
+  line-height: 2;
+}
 .info {
   margin-bottom: 50rpx;
 }

@@ -46,6 +46,10 @@ Page({
         isend: resp.pagebar.PageNow >= resp.pagebar.PageAll
       })
       wx.stopPullDownRefresh()
+    }, () => {
+      that.setData({
+        isend: true
+      })
     });
   },
   onReachBottom: function () {
