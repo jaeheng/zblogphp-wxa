@@ -1,0 +1,31 @@
+<!--blog-info.wxml-->
+<view class="container">
+<view class="error" wx:if="{{ error.length > 0 }}">{{ error }}</view>
+<text class="page-title">{{ data.Title }}</text>
+  <view class="article-item article-info">
+      <view class="info">
+        <text class="view">浏览:{{ data.ViewNums }}</text>
+        <text class="view">评论:{{ data.CommNums }}</text>
+        <text class="time">{{ data.PostTime }}</text>
+      </view>
+      <view class="desc">
+        <rich-text nodes="{{ data.content }}"></rich-text>
+      </view>
+  </view>
+
+  <text class="page-title" style="border-top: 1px solid #f3f3f3;">最新留言</text>
+  <scroll-view class="comment" bindscrolltolower="getComments">
+    <view class="article-item article-comment-item" wx:for="{{ comments }}" wx:key="ID">
+      <view class="info">
+        <text class="username">{{ item.Name }}</text>
+        <text class="time">{{ item.PostTime }}</text>
+      </view>
+      <view class="desc">
+        {{ item.Content }}
+      </view>
+    </view>
+    <view class="read-more">
+        {{ isend ? '无更多数据' : '加载中...' }}
+    </view>
+  </scroll-view>
+</view>

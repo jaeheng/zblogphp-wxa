@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/blog/blog",
+    "pages/blog-info/blog-info",
+    "pages/resume/resume",
+    "pages/sorts/sorts",
+    "pages/sorts-log/blog",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "博客首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "backgroundColor": "#fff",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "博客",
+        "iconPath": "static/images/blog.png",
+        "selectedIconPath": "static/images/blog-active.png"
+      },
+      {
+        "pagePath": "pages/sorts/sorts",
+        "text": "分类",
+        "iconPath": "static/images/sort.png",
+        "selectedIconPath": "static/images/sort-active.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/images/search.png",
+        "selectedIconPath": "static/images/search-active.png"
+      },
+      {
+        "pagePath": "pages/resume/resume",
+        "text": "关于",
+        "iconPath": "static/images/about.png",
+        "selectedIconPath": "static/images/about-active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 100000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
+}

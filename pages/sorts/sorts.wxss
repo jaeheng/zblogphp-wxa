@@ -1,0 +1,37 @@
+/* pages/sorts/sorts.wxss */
+.sorts {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10rpx;
+}
+.sorts-item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.sorts-item .item-link {
+  border: 1px solid #f3f3f3;
+  padding: 50rpx 30rpx;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,.3);
+}
+.sorts-item .title {
+  font-size: 40rpx;
+  padding-right: 50rpx;
+}
+.sorts-item .desc {
+  font-size: 30rpx;
+  margin-top: 1em;
+  color: #666;
+}
+.sorts-item .num {
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+  font-size: 60rpx;
+}

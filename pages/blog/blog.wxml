@@ -1,0 +1,14 @@
+<!--blog.wxml-->
+<import src="/template.wxml"/>
+<view class="container blog-view">
+<image src="{{imgUrl}}" class="banner"/>
+
+<view onReachBottom="getData">
+  <block wx:for="{{ data }}" wx:key="ID">
+    <template is="normalAritcle" data="{{ ...item }}"></template>
+  </block>
+</view>
+<view class="read-more">
+  {{ isend ? '无更多数据' : '加载中...' }}
+</view>
+</view>

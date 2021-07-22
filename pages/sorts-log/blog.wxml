@@ -1,0 +1,18 @@
+<!--blog.wxml-->
+<import src="/template.wxml"/>
+<view class="container blog-view">
+  <image src="{{imgUrl}}" class="banner"/>
+
+  <view onReachBottom="getData">
+    <block wx:for="{{ data }}" wx:key="gid">
+      <template is="normalAritcle" data="{{ ...item }}"></template>
+    </block>
+  </view>
+  <view style="text-align: center;" wx:if="{{ data.length === 0 }}">
+    <image src="../../static/images/empty.svg"></image>
+    <view style="color: #636363;">无更多数据</view>
+  </view>
+  <view class="read-more" wx:else>
+    {{ isend ? '无更多数据' : '加载中...' }}
+  </view>
+</view>

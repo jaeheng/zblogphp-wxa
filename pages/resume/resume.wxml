@@ -1,0 +1,14 @@
+<!--resume.wxml-->
+<view class="container">
+  <view class='resume_header'>
+    <image src='../../static/images/logo.png' mode='aspectFit' class='resume-pic'></image>
+    <view class='name'>{{ setting.name }}</view>
+  </view>
+
+  <view class='section'>
+    <view class='section-title'>博客介绍</view>
+    <view class='section-body'>
+      {{ setting.subname }}
+    </view>
+  </view>
+</view>
