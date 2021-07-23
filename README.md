@@ -1,6 +1,6 @@
 # Z-Blog小程序版客户端
 
->  代码托管地址: `https://github.com/jaeheng/Z-BlogPHP-wxa`
+>  代码托管地址: `https://github.com/jaeheng/zblogphp-wxa`
 
 该客户端为微信小程序客户端，接口依赖于Z-Blog博客程序PHP版。开发时的版本为：`1.7.0.2955 (Tenet);`
 
@@ -29,10 +29,10 @@ Z-Blog小程序版客户端依赖Z-Blog的API接口，所以需要先开启该�
 代码托管在Github , 如果你会使用git，可直接克隆该项目:
 
 ```
-git clone https://github.com/jaeheng/Z-BlogPHP-wxa.git
+git clone https://github.com/jaeheng/zblogphp-wxa.git
 ```
 
-如不会使用，则可以打开GitHub页面下载整个项目,下载页面https://github.com/jaeheng/Z-BlogPHP-wxa
+如不会使用，则可以打开GitHub页面下载整个项目,下载页面https://github.com/jaeheng/zblogphp-wxa
 
 ![image-20210722165729814](./doc/image-20210722165729814.png)
 
