@@ -4,9 +4,11 @@
 
 该客户端为微信小程序客户端，接口依赖于Z-Blog博客程序PHP版。开发时的版本为：`1.7.0.2955 (Tenet);`
 
-版本过高或过低可能接口定义不一致，导致无法正常使用，可自行测试。最好可以将测试结果在留言板中留言，供他人参考。
+版本过高或过低可能接口定义不一致，导致无法正常使用，可自行测试。最好可以将测试结果在留言板中留言，供他人参考，留言板地址在文档底部。
 
-留言板地址： `https://blog.lightcms.cn/?id=2`
+小程序预览:
+
+![微信搜索:lightcms](./doc/qrcode.jpg)
 
 ## 安装方法
 
@@ -32,7 +34,7 @@ Z-Blog小程序版客户端依赖Z-Blog的API接口，所以需要先开启该�
 git clone https://github.com/jaeheng/zblogphp-wxa.git
 ```
 
-如不会使用，则可以打开GitHub页面下载整个项目,下载页面https://github.com/jaeheng/zblogphp-wxa
+如不会使用，则可以打开GitHub代码托管页面下载整个项目,代码托管地址在文档底部可以找到。
 
 ![image-20210722165729814](./doc/image-20210722165729814.png)
 
@@ -54,7 +56,11 @@ git clone https://github.com/jaeheng/zblogphp-wxa.git
 
 完成以上步骤，即可进行二次开发或测试上线。
 
+## 参考链接
 
+留言板地址: https://blog.lightcms.cn/?id=2
+
+代码托管地址: https://github.com/jaeheng/zblogphp-wxa
 
 ## License
 
