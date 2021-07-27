@@ -65,76 +65,29 @@ button[disabled].red-btn:active {
   transform: rotate(45deg);
 }
 
-.page-title {
-  padding: 20rpx 30rpx;
-  font-size: 16px;
-  line-height: 1.5;
-  border-bottom: 1rpx solid #fafafa;
-}
-
 .article-item {
-  padding: 30rpx 0rpx;
+  padding: 30rpx 0rpx 10rpx;
   margin: 0 30rpx;
-  border-bottom: 1rpx solid #d3d3d3;
+  border-bottom: 1rpx solid #eee;
 }
 .article-item .info {
   overflow: hidden;
 }
-.article-item .username,
-.article-item .sort,
-.article-item .view,
-.article-item .time {
-  font-size: 12px;
+.article-item .info .item {
+  font-size: 24rpx;
   line-height: 20px;
   margin-top:  5px;
-  display: block;
+  display: inline-block;
   color: #aaa;
-}
-.article-item .view,
-.article-item .username,
-.article-item .sort {
-  float: left;
   margin-right: 10px;
 }
-.article-item .time {
+.right {
   float: right;
 }
-.article-item.with-pic {
-  padding-right: 200rpx;
-  position: relative;
-  padding-bottom: 1.5em;
-  min-height: 150rpx;
-}
-.article-item.with-pic .title {
-  min-height: 3.5em;
-}
-.article-item.with-pic .info {
-  position:absolute;
-  width:100%;
-  box-sizing:border-box;
-  bottom:20rpx;
-}
-.article-item.with-pic .desc-img {
-  position: absolute;
-  right: 0;
-  top: 20rpx;
-  width: 180rpx;
-  height: 145rpx;
-  overflow: hidden;
-}
-.article-item .desc,
-.article-item .desc-with-pics {
+.article-item .desc {
   font-size: 14px;
   line-height: 1.5;
   color: #787878;
-}
-.article-item .desc-with-pics .desc-pics {
-  display: flex;
-}
-.article-item .desc-with-pics .desc-img {
-  flex: 1;
-  padding: 20rpx 10rpx;
-  height: 200rpx;
 }
 
 .article-item .title {

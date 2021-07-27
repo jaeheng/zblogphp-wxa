@@ -1,13 +1,18 @@
 /* blog-info.wxss */
-.wxParse-pre {
-  white-space: normal;
-  width: 100%;
+.page-title {
+  padding: 20rpx 30rpx;
+  font-size: 48rpx;
+  line-height: 1.5;
+  border-bottom: 1rpx solid #f0f0f0;
 }
 .p {
   margin-top: 15px;
   width: 100%;
   overflow: hidden;
   word-break: break-all;
+}
+.h3 {
+  padding: 20rpx 30rpx;
 }
 
 .article-info {
@@ -32,4 +37,7 @@
 .rich-img {
   max-width: 100%!important;
   height: auto!important;
+}
+.prism-highlight {
+  background-color: #eee;
 }

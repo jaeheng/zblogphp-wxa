@@ -18,7 +18,7 @@
   height: 100%;
   box-sizing: border-box;
   background: #fff;
-  box-shadow: 0 5px 15px -5px rgba(0,0,0,.3);
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,.1);
 }
 .sorts-item .title {
   font-size: 40rpx;
@@ -27,7 +27,8 @@
 .sorts-item .desc {
   font-size: 30rpx;
   margin-top: 1em;
-  color: #666;
+  color: #808080;
+  font-weight: 300;
 }
 .sorts-item .num {
   position: absolute;

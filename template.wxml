@@ -3,9 +3,9 @@
   <view class="article-item" data-gid="{{ ID }}" bindtap="showblogInfo">
     <text class="title">{{ Title }}</text>
     <view class="info">
-      <text class="sort">评论: ({{ CommNums }})</text>
-      <text class="sort">阅读: ({{ ViewNums }})</text>
-      <text class="time">{{ PostTime }}</text>
+      <text class="item">评论: ({{ CommNums }})</text>
+      <text class="item">阅读: ({{ ViewNums }})</text>
+      <text class="item right">{{ PostTime }}</text>
     </view>
   </view>
 </template>

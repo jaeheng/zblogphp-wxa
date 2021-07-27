@@ -49,12 +49,15 @@ Page({
     util.getArticleInfo(gid, function (success) {
       const post = success.post
       post.PostTime = that.getDate(post.PostTime)
-      post.content = post.Content
+      post.Content = post.Content
+        .replace(/&amp;/g, '&')
         .replace(/&lt;/g, '<')
         .replace(/&gt;/g, '>')
         .replace(/&quot;/g, '"')
         .replace(/<section/g, '<div')
         .replace(/\/section>/g, '\div>')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/pre class="prism-highlight/g, 'pre style="white-space: pre-wrap!important;background-color: #eee;padding: 5px 10px;margin: 1em 0;" class="prism-highlight')
         .replace(/<img/gi, '<img class="rich-img" style="max-width:100%!important;display:block" ')
       that.setData({
         data: post

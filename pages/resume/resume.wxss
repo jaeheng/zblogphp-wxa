@@ -1,6 +1,6 @@
 /* resume.wxss */
 page {
-  background-color: #f3f3f3;
+  background-color: #f8f8f8;
 }
 .resume_header {
   background-color: #337adf;
