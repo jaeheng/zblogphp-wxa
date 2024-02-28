@@ -56,7 +56,7 @@ git clone https://github.com/jaeheng/zblogphp-wxa.git
 
 ## 参考链接
 
-留言板地址: https://blog.lightcms.cn/?id=2
+留言板地址: https://f1.phpat.com/?id=3
 
 代码托管地址: https://github.com/jaeheng/zblogphp-wxa
 
